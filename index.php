@@ -1,11 +1,11 @@
 
-
 <?php 
             include_once("templates/header.php");
+            include_once("process/pizza.php");
         ?>
         <div id="main-banner">
+        </div>
 
-  </div>
   <div id="main-container">
     <div class="container">
       <div class="row">

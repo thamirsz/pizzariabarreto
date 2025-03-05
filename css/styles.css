@@ -18,8 +18,8 @@ html, body {
 }
 /*HOME*/
 
-#main-banner{
-    background-image: url(../img/pizza-banner.jpg);
+#main-banner {
+    background-image: url("../img/pizza-banner.jpg");
     height: 300px;
     background-position: center;
     background-size: cover;
@@ -28,7 +28,7 @@ html, body {
     display: flex;
     align-items: center;
     justify-content: center;
-}
+  }
 #main-container {
     margin-bottom: 100px;
     padding: 50px 0;
@@ -62,23 +62,27 @@ html, body {
     border-color: #520052;
 }
 /*alerta*/
-.alert.alert-success{
-    border: 2px solid #155724;
-}
-.alert.alert-warning{
-    border: 2px solid #856408;
-}
-.alert{
+.alert {
     border-radius: 0;
     text-align: center;
     margin-bottom: 0;
     font-weight: bold;
     padding: 20px;
     font-size: 18px;
-}
-alert p {
+  }
+  
+  .alert.alert-success {
+    border: 2px solid #155724;
+  }
+  
+  .alert.alert-warning {
+    border: 2px solid #856404;
+  }
+  
+  .alert p {
     margin-bottom: 0;
-}
+  }
+  
 
 /* FOOTER */
 
